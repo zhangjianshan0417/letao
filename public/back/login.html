@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录页面</title>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="lib/bootstrap-validator/css/bootstrapValidator.css">
+  <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body class="body_bg">
+  <div class="container">
+    <div class="col-md-4 col-md-offset-4">
+      <!-- 表达的引用 -->
+      <div class="panel panel-primary mt_150">
+        <div class="panel-heading">
+          <h4 class="text-center" style="color:white">后台管理系统</h4>
+        </div>
+        <div class="panel-body">
+          <!-- 表单的引用 -->
+          <form class="form-horizontal" autocomplete="off">
+            <div class="form-group">
+              <label for="text" class="col-sm-3 control-label">用户名</label>
+              <div class="col-sm-9">
+                <input name="username" type="text" class="form-control" id="text" placeholder="请输入用户名" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Password" class="col-sm-3 control-label">密码</label>
+              <div class="col-sm-9">
+                <input name="password" placeholder="请输入密码" type="password" class="form-control" id="Password">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-6">
+                <button type="reset" class="btn btn-default">重置</button>
+                <button type="submit" class="btn btn-primary col-sm-offset-2">登录</button>
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</body>
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="lib/bootstrap-validator/js/bootstrapValidator.js"></script>
+<script src="js/login.js"></script>
+<!-- <script src="lib/bootstrap-paginator/bootstrap-paginator.js"></script> -->
+
+</html>
