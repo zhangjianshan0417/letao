@@ -1,0 +1,71 @@
+
+.lt_aside{
+width: 180px;
+height: 100%;
+background-color:#222d32;
+position: absolute;
+top:0;
+left:0;
+transition: all 1s;
+}
+.current{
+  left:-180px;
+}
+.lt_right{
+  height: 100%;
+  margin-left: 180px;
+  background-color: #fff;
+  transition: all 1s;
+}
+.ml_left{
+  margin-left: 0px;
+}
+.brand a{
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: rgb(54, 127, 169);
+}
+.user{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.user img{
+  border-radius: 50%; 
+  width: 80px;
+  height: 80px;
+}
+.user p{
+  color:#fff;
+  margin-top:10px;
+  font-size: 16px;
+}
+.define li{
+  text-align: center;
+  line-height: 40px;
+}
+.feilei{
+  display: none;
+}
+.feilei a{
+  display: block;
+  text-indent: 20px;
+}
+/* 首页的上面 */
+.lt_right_top{
+  padding:0 20px 0px 20px;
+  width: 100%;
+  height: 50px;
+  background-color:#367fa9;
+  line-height: 50px;
+  font-size: 16px;
+}
+.breadcrumb{
+  margin-top: 20px;
+}
+a.now{
+  color:blue;
+}

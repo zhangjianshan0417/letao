@@ -1,10 +1,53 @@
-.body_bg{
-  background-color: #222d32;
+@charset "UTF-8";
+html,body {
+  height: 100%;
+  overflow: hidden;
 }
-.container{
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+a:hover,
+a:active,
+a:link,
+a:visited{
+  text-decoration: none;
+  color:#fff;
+}
+.body_bg{
+  background-color:#230230;
+}
+/* .container{
   width: 1170px;
   margin:0 auto;
-}
+} */
 .mt_150{
   margin-top: 150px;
+}
+.breadcrumb a{
+  color:#000;
+}
+.active.now{
+  color:blue;
+}
+
+
+/* user的开始 */
+table{
+  text-align: center;
+}
+table th{
+  text-align: center;
+}
+.mb_20{
+  margin-left: 20px;
+}
+table{
+  margin-top: 20px;
+  margin-left: 20px;
 }

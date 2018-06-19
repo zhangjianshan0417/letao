@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首页</title>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="lt_aside">
+    <div class="brand">
+      <a href="#">黑马前端22期</a>
+    </div>
+    <div class="user">
+      <img src="images/agt.jpg" alt="">
+      <p>超级管理员</p>
+    </div>
+    <div class="define">
+      <ul>
+        <li>
+          <a href="user.html">
+            <span class="glyphicon glyphicon-user"></span>
+            <span>用户管理</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="slide">
+            <span class="glyphicon glyphicon-list "></span>
+            <span>分类管理</span>
+          </a>
+          <div class="feilei">
+            <a href="first.html">一级分类</a>
+            <a href="second.html">二级分类</a>
+          </div>
+        </li>
+        <li>
+          <a href="cate.html">
+            <span class="glyphicon glyphicon-tags"></span>
+            <span>商品管理</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="lt_right">
+    <div class="lt_right_top">
+      <a href="javascript:;" class="pull-left">
+        <span class="glyphicon glyphicon-align-justify btn_confine"></span>
+      </a>
+      <a href="javascript:;" class="pull-right">
+        <span class="glyphicon glyphicon-log-out btn_logout"></span>
+      </a>
+    </div>
+    <ol class="breadcrumb">
+      <li>
+        <a href="#">管理系统</a>
+      </li>
+      <li class="active now">商品管理</li>
+    </ol>
+
+
+
+    <div class="content">
+
+      cate
+    </div>
+  </div>
+
+  <!-- 退出的模态框 -->
+  <div class="modal fade" tabindex="-1" id="logoutModal">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <h4 class="modal-title">温馨提示</h4>
+        </div>
+        <div class="modal-body">
+          <p class="text-danger">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            您确定要退出后台管理系统吗？
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary btn_tuichu">退出</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
